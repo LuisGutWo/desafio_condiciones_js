@@ -1,0 +1,114 @@
+p {
+  font-size: 1.2rem;
+  border: groove 1.5px #808080;
+  width: max-content;
+}
+
+/* ejercicio 1 */
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.image {
+  border: solid 4px black;
+  border-radius: 2%;
+}
+
+/* Ejercicio 2 */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  min-height: 75vh;
+}
+.img-cards {
+  width: 20rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: solid 3px rgb(72, 72, 72);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.stickers-section {
+  display: flex;
+  justify-content: center;
+}
+.card-par {
+  font-size: 2rem;
+}
+.card-input {
+  width: min-content;
+  border: #727260 solid 3px;
+  border-radius: 5px;
+}
+.card-footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.result-section {
+  border: solid 3px #727272;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  width: 60%;
+}
+.button {
+  width: 8rem;
+  height: 1.5rem;
+  border: #727272 solid 2px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.stickers-par {
+  font-size: 1.5rem;
+}
+
+/* Ejercicio 3 */
+.password-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+}
+.password-title {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: #727260 solid 4px;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 0;
+}
+.select-section {
+}
+.selects {
+  height: 1.6rem;
+}
+
+.button2 {
+  width: 8rem;
+  height: 1.5rem;
+  border: #727272 solid 2px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.par {
+  margin-top: 0;
+}
