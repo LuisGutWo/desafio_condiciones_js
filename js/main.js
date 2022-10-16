@@ -3,6 +3,7 @@
 const mainImage = document.querySelector("#mainImage");
 
 mainImage.style.cursor = 'pointer';
+mainImage.style.borderRadius = '4px';
 
 mainImage.addEventListener("click", () => {
     mainImage.classList.toggle("image")

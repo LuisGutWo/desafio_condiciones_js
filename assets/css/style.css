@@ -13,8 +13,7 @@ p {
   margin-bottom: 100px;
 }
 .image {
-  border: solid 4px black;
-  border-radius: 2%;
+  border: solid 4px #000;
 }
 
 /* Ejercicio 2 */
